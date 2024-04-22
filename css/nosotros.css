@@ -1,0 +1,119 @@
+@font-face {
+    font-family: merienda;
+    src: url(../multimedia/fuentes/static/Merienda-Bold.ttf);
+}
+
+@font-face {
+    font-family: parisienne;
+    src: url(../multimedia/fuentes/Parisienne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ----- HEADER ----- */
+
+header {
+    user-select: none;
+    width: 100%;
+    box-shadow: 4px 4px 10px #aaa;
+    margin-left: 0px !important;
+}
+
+header div img {
+    padding-top: 7px;
+}
+
+header div img:hover {
+    filter: drop-shadow(1px 1px 2px #bbb);
+}
+
+ul {
+    padding-top: 1.6rem;
+}
+
+ul li a {
+    color: #999 !important;
+    font-family: merienda;
+}
+
+li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000 !important;
+    transition: all .3s;
+}
+
+button {
+    background: transparent !important;
+    border: none;
+}
+
+.boton-asistencia {
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.boton-asistencia a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    color: #999 !important;
+}
+
+.boton-asistencia a:hover {
+    color: #000 !important;
+    transition: all .3s;
+}
+
+iframe {
+    filter: brightness(.8);                     
+}
+
+#sobre-nosotros p, #sobre-nosotros h2{
+    font-family: none;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 1px 4px 10px #aaa;
+}
+
+.menu-mobile {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-mobile ul {
+    list-style: none;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #777 !important;
+}
+
+#api {
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+#gente-api {
+    line-height: 100px;
+}
+
+#inversion-api {
+    line-height: 100px;
+}
+

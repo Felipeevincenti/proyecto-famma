@@ -1,0 +1,215 @@
+@font-face {
+    font-family: merienda;
+    src: url(../multimedia/fuentes/static/Merienda-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ----- HEADER ----- */
+
+
+
+header {
+    user-select: none;
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+header div img {
+    padding-top: 7px;
+}
+
+header div img:hover {
+    filter: drop-shadow(1px 1px 2px #bbb);
+}
+
+ul {
+    padding-top: 1.6rem;
+}
+
+ul li a {
+    color: #999 !important;
+}
+
+li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000 !important;
+    transition: all .3s;
+}
+
+button {
+    background: transparent !important;
+    border: none;
+}
+
+.boton-asistencia {
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.boton-asistencia a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    color: #999 !important;
+}
+
+.boton-asistencia a:hover {
+    color: #000 !important;
+    transition: all .3s;
+}
+
+/* ----- BANNER ----- */
+
+.banner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(40, 40, 40, .6), rgba(40, 40, 40, .6)),
+        url(../multimedia/imagenes/background-banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner h3 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.banner button {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.banner button:hover {
+    background: #000 !important;
+    color: #fff;
+    transition: all .3s;
+    border: 2px solid #000;
+}
+
+.banner button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.envio {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    padding: 40px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+.envio_section {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.envio_section_img {
+    padding: 10px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+.envio_section_img2 {
+    width: 80px;
+}
+
+.envio_section_texto_h4 {
+    font-size: 20px;
+}
+
+.envio_section_texto_p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.menu-mobile {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-mobile ul {
+    list-style: none;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #777 !important;
+}
+
+
+@media (max-width: 767px) {
+    .banner h3 {
+        font-size: 40px;
+    }
+
+    .banner button {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 1205px) {
+
+    .envio {
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .envio_section {
+        width: 100%;
+        margin: 20px auto;
+        box-shadow: 5px 5px 10px #aaa;
+    }
+
+    .envio_section_texto_h4 {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 1497px) {
+
+    .envio_section_texto_h4 {
+        font-size: 17px;
+    }
+
+    .envio_section_texto_p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+}

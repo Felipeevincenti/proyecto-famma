@@ -1,0 +1,110 @@
+@font-face {
+    font-family: merienda;
+    src: url(../multimedia/fuentes/static/Merienda-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ----- HEADER ----- */
+
+header {
+    user-select: none;
+    width: 100%;
+    box-shadow: 4px 4px 10px #aaa;
+    margin-left: 0px !important;
+}
+
+header div img {
+    padding-top: 7px;
+}
+
+header div img:hover {
+    filter: drop-shadow(1px 1px 2px #bbb);
+}
+
+ul {
+    padding-top: 1.6rem;
+}
+
+ul li a {
+    color: #999 !important;
+}
+
+li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000 !important;
+    transition: all .3s;
+}
+
+button {
+    background: transparent !important;
+    border: none;
+}
+
+.boton-asistencia {
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.boton-asistencia a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    color: #999 !important;
+}
+
+.boton-asistencia a:hover {
+    color: #000 !important;
+    transition: all .3s;
+}
+
+.message {
+    resize: none;
+    outline: none !important;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #000;
+}
+
+.button-form {
+    color: #B8110F;
+    border: 2px solid #B8110F;
+}
+
+
+.button-form:hover {
+    border: 2px solid #B8110F;
+    outline: 2px  #fff !important;
+    background: #B8110F !important;
+    color: #fff !important;
+    transition: all .3s;
+}
+
+.menu-mobile {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-mobile ul {
+    list-style: none;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #777 !important;
+}

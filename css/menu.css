@@ -1,0 +1,150 @@
+@font-face {
+    font-family: merienda;
+    src: url(../multimedia/fuentes/static/Merienda-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ----- HEADER ----- */
+
+header {
+    user-select: none;
+    width: 100%;
+    box-shadow: 4px 4px 10px #aaa;
+    margin-left: 0px !important;
+}
+
+header div img {
+    padding-top: 7px;
+}
+
+header div img:hover {
+    filter: drop-shadow(1px 1px 2px #bbb);
+}
+
+ul {
+    padding-top: 1.6rem;
+}
+
+ul li a {
+    color: #999 !important;
+}
+
+li a:hover {
+    border-bottom: 1px solid #000;
+    color: #000 !important;
+    transition: all .3s;
+}
+
+button {
+    background: transparent !important;
+    border: none;
+}
+
+.boton-asistencia {
+    padding: 0;
+    justify-content: end;
+    align-items: center;
+}
+
+.boton-asistencia a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    color: #999 !important;
+}
+
+.boton-asistencia a:hover {
+    color: #000 !important;
+    transition: all .3s;
+}
+
+.btn-carrito-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.btn-carrito {
+    background: #198754 !important;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-carrito:hover {
+    background: #11613c !important;
+}
+
+.menu-mobile {
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-mobile ul {
+    list-style: none;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #777 !important;
+}
+
+.background-tr {
+    background: #efefef;
+}
+
+.infopedido {
+    color: #198754
+}
+
+#añadir {
+    background: #198754 !important;
+}
+
+#añadir:hover {
+    background: #11613c !important;
+}
+
+.container-btn-tabla {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-limpiar {
+    background: #198754 !important;
+    color: #fff;
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.btn-limpiar:hover {
+    background: #11613c !important;
+}
+
+.btn-confirmar {
+    background: #198754 !important;
+    color: #fff;
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.btn-confirmar:hover {
+background: #11613c !important;
+}
+
+
